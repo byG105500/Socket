@@ -32,7 +32,7 @@ public class Connection{
 			System.out.println("Ma reqete:\n" + r + "\n\n");
 			out.println(r); // pour ajouter à la socket
 			out.flush(); // pour envoyer la socket
-			System.out.println("Requete envoyée ! \n\n La réponse: \n");
+			System.out.println("Requete envoyée ! \n\n");
 		}catch(RequeteNonConstruiteException e){e.printStackTrace();}
 	}
 	
